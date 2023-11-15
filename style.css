@@ -1,0 +1,50 @@
+*{
+    font-family: cursive;
+    /* font-size: large; */
+}
+
+.container{
+    padding-top: 50px;
+    text-align: center;
+    height: 50%;
+}
+
+h1{
+ 
+    color: blue;
+}
+#inputval{
+    height: 50px;
+    width: 30%;
+    border: solid;
+    border-radius: 50px;
+    background-color: gray;
+    font-size: 1rem;
+    padding-left: ;
+    
+}
+::placeholder{
+    color: black;
+    font-size: 1rem;
+    padding: 10px;
+    text-align: center;
+}
+button{
+    height: 60px;
+    width: 100px;
+    background-color: skyblue;
+    border: solid;
+    border-radius: 20px;
+    
+
+}
+#inputval:hover{
+    color: white;
+}
+button:hover{
+    color: white;
+}
+
+.weatherInfo{
+    font-size: 3rem;
+}

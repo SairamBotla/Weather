@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <!-- weather app structure -->
+    <div class="container">
+        <h1>Weather Info</h1>
+        <div class="input_box">
+            <!-- to get the location info from the users -->
+            <input type="text" placeholder="Enter the Location" id="inputval">
+            <button type="submit" id="btn">Get</button>
+        </div>
+        <div class="weatherInfo">
+            <!-- display weather info of given location -->
+            <img src="" alt="" width="" height="">
+            <!-- to display temperature info -->
+            <div class="temperature_info">
+                <span class="temp" id="temp" >30 </span>
+                <span class="deg">&deg;</span>
+                <span class="cel">C</span>
+            </div>
+            <!-- to display the weather discription-sunny clouds etc -->
+            <div class="description" id="description"> Cloudy</div>
+            <!-- to display weather location -->
+            <div class="location" id="location">Hyderabad</div>
+        </div>
+    </div>
+
+    <!-- external js file -->
+    <script src="./script.js"></script>
+</body>
+</html>
